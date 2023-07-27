@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./Media/Images/Model-S-Main-Hero-Desktop-LHD.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #333;
+  }
+
+.Logo {
+    width: 120px;
+}
+
+ul li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+ul li :hover {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.bi{
+    color: black;
+    visibility: hidden;
+}
+
+.head{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.subhead{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 520;
+}
+
+.interior{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./Media/Images/Model-S-Interior-Hero-Desktop-LHD.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.interior h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 530;
+}
+
+.Spec{
+    padding-top: 300px;
+}
+
+.spechead{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
+    color: white;
+}
+
+.specsubhead{
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+}
+
+.btn1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 550;
+    color: white;
+}
+
+.btn1:hover {
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+.btn2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 550;
+    color: white; 
+}
+
+.bullet{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.Exp{
+    padding-left: 400px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.plaid{
+    width: 100%;
+    height: 50vh;
+    background-image: url("./Media/Images/Model-S-Performance-Hero-Desktop-LHD.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #333;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .navcontent{
+        background-color: white;
+        padding: 40px;
+        align-content: right;
+    }
+
+    ul li {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        font-weight: 550;
+        text-align: center;
+    }
+
+    .bi{
+        color: black;
+        visibility: visible;
+        text-align: left;
+        /* width: 600%; */
+    }
+
+    .hero {
+        width: 100%;
+        height: 80vh;
+        background-image: url("./Media/Images/Model-S-Main-Hero-Desktop-LHD.jpg");
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #333;
+      }
+
+      .Spec{
+        padding-top: 200px;
+        /* display: flex; */
+    }
+    
+    .spechead{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 0;
+        color: white;
+    }
+    
+    .specsubhead{
+        font-size: 10px;
+        font-weight: 500;
+        color: white;
+    }
+
+    .spec1{
+        padding-right: 15px;
+        text-align: center;
+
+    }
+
+    .btn2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10px;
+        font-weight: 550;
+        color: white; 
+    }
+
+    .btn1:hover {
+        background-color: white;
+        font-size: 10px;
+        font-weight: 600;
+        color: black;
+    }
+
+    .btn1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10px;
+        font-weight: 550;
+        color: white;
+    }
+    
+    .interior{
+        width: 100%;
+        height: 50vh;
+        background-image: url("./Media/Images/Model-S-Interior-Hero-Desktop-LHD.jpg");
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .Exp{
+        padding-left: 0px;
+        font-family: 'Montserrat', sans-serif;
+    }
+  } 
+
+
+  @media only screen and (min-width: 601px) and (max-width: 992px) {
+    .navcontent{
+        background-color: white;
+        padding: 40px;
+        align-content: right;
+    }
+
+    ul li {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        font-weight: 550;
+        text-align: center;
+    }
+
+    .bi{
+        color: black;
+        visibility: visible;
+        text-align: left;
+        /* width: 600%; */
+    }
+
+    .Exp{
+        padding-left: 0px;
+        font-family: 'Montserrat', sans-serif;
+    }
+  }
+
+  
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  
+  }
+  
+  
+  
